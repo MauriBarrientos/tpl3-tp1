@@ -19,5 +19,5 @@ def number_spiral(fila, columna):
             return (columna**2 - fila + 1)
 
 print(number_spiral(2, 2))
-#Operador == modificado a != para que no de error
+#Operador == modificado a 3 para que no de error
 assert number_spiral(2, 2) == 3, "Error en el caso de prueba"
