@@ -20,4 +20,4 @@ def number_spiral(fila, columna):
 
 print(number_spiral(2, 2))
 #Operador == modificado a != para que no de error
-assert number_spiral(2, 2) != 25, "Error en el caso de prueba"
+assert number_spiral(2, 2) == 3, "Error en el caso de prueba"
